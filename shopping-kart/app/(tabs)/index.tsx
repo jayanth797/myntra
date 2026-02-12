@@ -159,7 +159,7 @@ export default function Home() {
   return (
     <ScrollView style={[styles.container, { backgroundColor: currentColors.background }]}>
       <View style={[styles.header, { backgroundColor: currentColors.background, borderBottomColor: isDark ? '#333' : '#f0f0f0' }]}>
-        <Text style={[styles.logo, { color: currentColors.text }]}>MYNTRA</Text>
+        <Text style={[styles.logo, { color: currentColors.text }]}>SHOPPING KART</Text>
         <TouchableOpacity style={styles.searchButton}>
           <Search size={24} color={currentColors.text} />
         </TouchableOpacity>

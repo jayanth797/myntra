@@ -41,7 +41,7 @@ export default function Login() {
         style={styles.backgroundImage}
       />
       <View style={styles.formContainer}>
-        <Text style={styles.title}>Welcome to Myntra</Text>
+        <Text style={styles.title}>Welcome to Shopping Kart</Text>
         <Text style={styles.subtitle}>Login to continue shopping</Text>
         <TextInput
           style={styles.input}

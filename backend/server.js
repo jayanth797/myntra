@@ -16,7 +16,7 @@ app.use(cors({
   credentials: true,
 }));
 app.get("/", (req, res) => {
-  res.send("✅ Myntra backend in working");
+  res.send("✅ Shopping Kart backend in working");
 });
 app.use("/user", userrouter);
 app.use("/category", categoryrouter);

@@ -1,7 +1,7 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { Platform } from "react-native";
 
-const ORDERS_KEY = "myntra_orders";
+const ORDERS_KEY = "shopping_kart_orders";
 
 export const saveOrder = async (order: any) => {
     try {

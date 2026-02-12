@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "myntra",
-    "slug": "myntra",
+    "name": "Shopping Kart",
+    "slug": "shopping-kart",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/myntra.jpg",
-    "scheme": "myapp",
+    "icon": "./assets/images/shopping-kart.jpg",
+    "scheme": "shoppingkart",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/myntra.jpg",
+        "foregroundImage": "./assets/images/shopping-kart.jpg",
         "backgroundColor": "#ffffff"
       }
     },
@@ -26,10 +26,10 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/myntra.jpg",
+          "image": "./assets/images/shopping-kart.jpg",
+          "backgroundColor": "#ffffff",
           "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "resizeMode": "contain"
         }
       ],
       "expo-secure-store"

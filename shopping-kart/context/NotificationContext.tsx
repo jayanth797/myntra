@@ -23,7 +23,7 @@ type NotificationContextType = {
 
 const NotificationContext = createContext<NotificationContextType | undefined>(undefined);
 
-const NOTIFICATIONS_KEY = 'myntra_notifications';
+const NOTIFICATIONS_KEY = 'shopping_kart_notifications';
 
 export const NotificationProvider = ({ children }: { children: React.ReactNode }) => {
     const [notifications, setNotifications] = useState<Notification[]>([]);

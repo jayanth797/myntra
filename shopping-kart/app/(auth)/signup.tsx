@@ -93,7 +93,7 @@ export default function Signup() {
       <View style={styles.formContainer}>
         <Text style={styles.title}>Create Account</Text>
         <Text style={styles.subtitle}>
-          Join Myntra and discover amazing fashion
+          Join Shopping Kart and discover amazing fashion
         </Text>
 
         <View style={styles.inputGroup}>

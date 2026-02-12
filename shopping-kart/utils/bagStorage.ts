@@ -2,8 +2,8 @@ import { Platform } from "react-native";
 import * as SecureStore from "expo-secure-store";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
-const BAG_KEY = "myntra_bag";
-const SAVED_KEY = "myntra_saved";
+const BAG_KEY = "shopping_kart_bag";
+const SAVED_KEY = "shopping_kart_saved";
 
 export const addToBag = async (item: any) => {
     try {
